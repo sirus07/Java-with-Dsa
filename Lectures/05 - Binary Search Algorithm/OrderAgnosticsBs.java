@@ -5,7 +5,7 @@ public class OrderAgnosticsBs {
         int [] arr = { 9,8,7,6,5,4,3,2,1};
         int target =4;
         int ans = orderAgnostics(arr,target);
-        System.out.println(ans);
+
     }
     // this method works both for acc and decc;
     static int orderAgnostics ( int [] arr, int target){
@@ -37,4 +37,5 @@ public class OrderAgnosticsBs {
         }
         return -1;
     }
+
 }
